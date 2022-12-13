@@ -9,6 +9,9 @@ const NumberBox = () => {
   /** 값을 가져올 때 그 값을 확인해 주지 않기 때문에 이름 확인!!!!
    *  값이 없는 내용을 들고오면 undefined 를 출력
    */
+
+  // number의 순서 의미 
+  // index, number.js에서 가져온 state number, 객체 속성
   const number = useSelector((state)=>(state.number.number));
   const numberObj = useSelector((state)=>(state.number));
 

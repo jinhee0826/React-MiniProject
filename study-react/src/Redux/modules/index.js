@@ -13,7 +13,8 @@ import number from "./number";
 import book from "./book";
 
 // combinReducer를 통해서 작성한 js파일을 들고와서 객체형태로 묶어 준다 
-const rootReducer = combineReducers({ number, book });
+const rootReducer = combineReducers({ number, booktest: book });
+// state로 가져와 줄 때 state.booktest로 접근하게 됨 
 
 // export default를 통해서 이름을 그대로 사용할 수 있게 내보내 준다 
 export default rootReducer;

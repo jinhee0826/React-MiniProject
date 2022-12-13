@@ -51,10 +51,10 @@ function App() {
         //<APIComp />
         //<TestAPI />
         // <RootIndex />
-        //<TestRootIndex />       <StoreIndex />
+        //<TestRootIndex />       
       }
       
-      <RootIndex />
+      <StoreIndex />
       
     </div>
   );

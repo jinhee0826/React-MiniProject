@@ -17,6 +17,7 @@ function number(state=initalState, action) {
       // 이때 접근하는 state는 현재 number.js에서 작성한 initalState이다 
       
       // 첫번째 number: 값의 이름, 두번째 number: 수정할 값 
+      // 배열일때는 concat? 쓴다 
       return { ...state, number : state.number +1 }
 
     case "setNumber" :
