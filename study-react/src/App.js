@@ -15,6 +15,7 @@ import TestAPI from './components/TestAPI';
 import RootIndex from './page/RootIndex';
 import TestRootIndex from './page/TestRootIndex';
 import StoreIndex from './Redux/StoreIndex';
+import ReduxToolkitIndex from './ReduxToolkit/ReduxToolkitIndex';
 // . 점을 직고 값을 불러오는데 이 .의 위치는 
 // 현재 작성하고 있는 src파일의 기준으로 찾아감
 // 컴포넌트의 함수이름과 export의 이름이 같은 이유: 
@@ -51,10 +52,10 @@ function App() {
         //<APIComp />
         //<TestAPI />
         // <RootIndex />
-        //<TestRootIndex />       
+        //<TestRootIndex />  
+        //  <StoreIndex />     
       }
-      
-      <StoreIndex />
+      <ReduxToolkitIndex />
       
     </div>
   );
