@@ -2,6 +2,7 @@ import { useMemo } from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import Slider from "react-slick";
+import HomeLink from "../components/HomeLink";
 import '../css/Home.css'
 
 const Home = () => {
@@ -132,7 +133,7 @@ const Home = () => {
               <div
                 style={{
                   width: "100%",
-                  height: "100vh",
+                  height: "99vh",
                   backgroundImage: "url(" + require("../img/" + image) + ")",
                   backgroundSize: "cover",
                 }}
@@ -147,8 +148,10 @@ const Home = () => {
             />
           </div>
         </Slider>
+      </div>
 
-        <div className="Home_main">
+
+      <div className="Home_main">
           {/** 현재 시간 출력
            * 1. {time.getHours()} 을 사용해서 시간을 나올 수 있게 함
            * => 시간은 초단위로 바뀌기 때문에 1초 마다 내용반복을 위해
@@ -181,7 +184,7 @@ const Home = () => {
           <p>{printWord.author}</p>
         </div>
 
-      </div>
+        <HomeLink />
     </div>
   );
 };

@@ -3,6 +3,8 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './page/Home';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import LoginForm from './page/LoginForm';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 //Routes와 Route를 이용해 화면 출력
 function App() {
@@ -11,6 +13,7 @@ function App() {
       {/** 고정할 화면이 있다면 Routes의 바깥에 두거나, layout사용 */}
       <Routes>
         <Route path='/' element={<Home />}></Route>
+        <Route path='/loginform' element={<LoginForm />}></Route>
       </Routes>
     </div>
   );
