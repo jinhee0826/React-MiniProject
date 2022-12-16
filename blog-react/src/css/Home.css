@@ -1,0 +1,21 @@
+.Home_main{
+    width: 100%;
+    position: fixed; /*위치고정*/
+    top: 30%;
+    text-align: center; /*중앙정령*/
+}
+
+.Home_main h1 {
+    font-size: 3em;
+    color: white;
+}
+
+.Home_main h4 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.Home_main p {
+    font-family: '궁서';
+    color: white;
+}
